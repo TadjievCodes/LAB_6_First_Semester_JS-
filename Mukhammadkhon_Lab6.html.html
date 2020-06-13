@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Name: Tadjiev Mukhammadkhon		
+Date: 31/03/2020		
+Purpose: Lab 6 JavaScript	
+-->
+<html>
+
+<head>
+    <title>Lab 6 </title>
+</head>
+
+<body>
+    <form onchange="validateForm()">
+        <h1>User Details</h1>
+        <div>
+            <p>First Name
+                <input type="text" id="userFirst" />
+            </p>
+            <p>Last Name
+                <input type="text" id="userLast" />
+            </p>
+            <p>Age
+                <input type="text" id="userAge" />
+            </p>
+            <p>Phone #
+                <input type="text" id="userPhone" />
+            </p>
+            <p>Email
+                <input type="text" id="userEmail" />
+            </p>
+            <input type="button" value="Create" id="btn" />
+            <input type="button" value="Show User Details" onclick="showUserDetails()" />
+            <input type="button" value="Clear" onclick="formReset()" />
+        </div>
+    </form>
+    <hr>
+    <h2>Users</h2>
+    <div id="usersOutput">...</div>
+
+
+    <script src="Lab6.js"></script>
+</body>
+
+</html>
